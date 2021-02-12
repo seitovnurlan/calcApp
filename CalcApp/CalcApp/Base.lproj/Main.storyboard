@@ -49,16 +49,25 @@
                                         <rect key="frame" x="1" y="130.5" width="92.5" height="128.5"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                         <state key="normal" title="7"/>
+                                        <connections>
+                                            <action selector="namberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lPm-KQ-z3w"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58F-6y-otA">
                                         <rect key="frame" x="94.5" y="130.5" width="92" height="128.5"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                         <state key="normal" title="8"/>
+                                        <connections>
+                                            <action selector="namberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7B4-V9-fd1"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69D-VV-Z7B">
                                         <rect key="frame" x="187.5" y="130.5" width="92.5" height="128.5"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                         <state key="normal" title="9"/>
+                                        <connections>
+                                            <action selector="namberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fn5-SN-l0Z"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilt-zB-F1J">
                                         <rect key="frame" x="281" y="130.5" width="92" height="128.5"/>
@@ -69,16 +78,25 @@
                                         <rect key="frame" x="1" y="260" width="92.5" height="129"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                         <state key="normal" title="4"/>
+                                        <connections>
+                                            <action selector="namberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m4N-LT-7yU"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwb-7s-vrR">
                                         <rect key="frame" x="94.5" y="260" width="92" height="129"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                         <state key="normal" title="5"/>
+                                        <connections>
+                                            <action selector="namberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rx9-Sr-Eg8"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyo-pp-ndh">
                                         <rect key="frame" x="187.5" y="260" width="92.5" height="129"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                         <state key="normal" title="6"/>
+                                        <connections>
+                                            <action selector="namberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="as7-QY-fxk"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3K9-DS-lcD">
                                         <rect key="frame" x="281" y="260" width="92" height="129"/>
@@ -89,16 +107,25 @@
                                         <rect key="frame" x="1" y="390" width="92.5" height="128.5"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                         <state key="normal" title="1"/>
+                                        <connections>
+                                            <action selector="namberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZwE-Fp-RmZ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m70-3b-mUd">
                                         <rect key="frame" x="94.5" y="390" width="92" height="128.5"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                         <state key="normal" title="2"/>
+                                        <connections>
+                                            <action selector="namberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xhH-J0-R7Y"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ra7-N2-o1x">
                                         <rect key="frame" x="187.5" y="390" width="92.5" height="128.5"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                         <state key="normal" title="3"/>
+                                        <connections>
+                                            <action selector="namberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aYA-ek-Anp"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2k-3x-pt7">
                                         <rect key="frame" x="281" y="390" width="92" height="128.5"/>
@@ -114,6 +141,9 @@
                                         <rect key="frame" x="94.5" y="519.5" width="92" height="128.5"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                         <state key="normal" title="0"/>
+                                        <connections>
+                                            <action selector="namberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="daO-1h-9TV"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q1u-6q-CST">
                                         <rect key="frame" x="187.5" y="519.5" width="92.5" height="128.5"/>
@@ -230,10 +260,13 @@
                             <constraint firstItem="RzR-Iv-AeK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="sjg-s1-xi5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="displayResultLabel" destination="RzR-Iv-AeK" id="PSC-Rq-4IY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="75"/>
+            <point key="canvasLocation" x="29" y="181"/>
         </scene>
     </scenes>
     <resources>
