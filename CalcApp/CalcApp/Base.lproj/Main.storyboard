@@ -44,6 +44,9 @@
                                         <rect key="frame" x="281" y="1" width="92" height="128.5"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                         <state key="normal" title="+"/>
+                                        <connections>
+                                            <action selector="twoOperandsSingPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gNQ-1t-xoT"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBf-5U-EJg">
                                         <rect key="frame" x="1" y="130.5" width="92.5" height="128.5"/>
@@ -73,6 +76,9 @@
                                         <rect key="frame" x="281" y="130.5" width="92" height="128.5"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                         <state key="normal" title="-"/>
+                                        <connections>
+                                            <action selector="twoOperandsSingPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FKA-Vx-l1L"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZyA-Ar-hEP">
                                         <rect key="frame" x="1" y="260" width="92.5" height="129"/>
@@ -102,6 +108,9 @@
                                         <rect key="frame" x="281" y="260" width="92" height="129"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                         <state key="normal" title="✕"/>
+                                        <connections>
+                                            <action selector="twoOperandsSingPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="djg-Mp-SIf"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XlJ-f4-GqP">
                                         <rect key="frame" x="1" y="390" width="92.5" height="128.5"/>
@@ -131,6 +140,9 @@
                                         <rect key="frame" x="281" y="390" width="92" height="128.5"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                         <state key="normal" title="➗"/>
+                                        <connections>
+                                            <action selector="twoOperandsSingPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ihx-sH-wCp"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CfP-jh-TvZ">
                                         <rect key="frame" x="1" y="519.5" width="92.5" height="128.5"/>
@@ -266,7 +278,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="29" y="181"/>
+            <point key="canvasLocation" x="171" y="117"/>
         </scene>
     </scenes>
     <resources>

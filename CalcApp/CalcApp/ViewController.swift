@@ -10,22 +10,42 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var displayResultLabel: UILabel!
-    var stilltyping = false
+    var stillTyping = false
+    var firstOperand: Double = 0
+    var secondOperand: Double = 0
+    var operationSign: String = ""
+    
+    var currentInput: Double {
+        get {
+            return Double(displayResultLabel.text!)!
+        }
+        set{
+            displayResultLabel.text = "\(newValue)"
+            stillTyping = false
+        }
+    }
+    
     
     @IBAction func namberPressed(_ sender: UIButton) {
         
         let number = sender.currentTitle!
         
-        if stilltyping {
+        if stillTyping {
             if let text = displayResultLabel.text,text.count < 20 {
         displayResultLabel.text = displayResultLabel.text! + number
             }
         } else {
             displayResultLabel.text = number
-            stilltyping = true
+            stillTyping = true
         }
     }
     
-
+    @IBAction func twoOperandsSingPressed(_ sender: UIButton) {
+        operationSign = sender.currentTitle!
+        firstOperand = currentInput
+        print(operationSign)
+        stillTyping = false
+    }
+    
 }
 
